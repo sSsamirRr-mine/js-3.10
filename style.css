@@ -1,0 +1,110 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.conteiner {
+    max-width: 428px;
+    margin: 0 auto;
+}
+
+
+body {
+    background-color: black;
+    display: flex;
+    /* padding: 80px; */
+}
+
+.body {
+    box-shadow: -40px 60px 150px 0px #3B267BB2;
+    width: 428px;
+    height: 700px;
+    border-radius: 50px;
+    background: linear-gradient(168.87deg, #3B267BB2 2.43%, #9D52ACB2 99.31%);
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-div {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    padding: 40px;
+    border-radius: 50px;
+    background: linear-gradient(229.56deg, #3E2D8F 26.99%, rgba(157, 82, 172, 0.7) 95.21%);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.btn-div>button {
+    width: 304px;
+    height: 72px;
+    border-radius: 50px;
+    background: #DDB130;
+    border: none;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 29.71px;
+    letter-spacing: 0.47px;
+    text-align: center;
+    color: #362A84;
+
+}
+
+input {
+    width: 358px;
+    height: 58px;
+    border-radius: 30px;
+    border-width: 2px, 2px, 2px, 2px;
+    border-style: solid;
+    border-color: #3E2D8F;
+    background-color: #3E2D8F;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #F1EEFB;
+    border: 1px solid #3E2D8F;
+    padding: 20px;
+}
+
+input::placeholder {
+    color: #d2d2d2;
+    border: 1px solid #3E2D8F
+}
+
+img {
+    width: 244px;
+    height: 200px;
+
+}
+
+.today {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main {
+    display: flex;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-direction: column;
+    color: white;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2,
+h3 {
+    font-size: 20px;
+}
